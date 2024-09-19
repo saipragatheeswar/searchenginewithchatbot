@@ -48,5 +48,3 @@ if prompt := st.chat_input(placeholder="Ask me anything...."):
         
         st.session_state.messages.append({"role": "assistant", "content": response})
         st.write(response)
-# Display the current state of session_state.messages for debugging purposes
-st.write("Current st.session_state.messages:", st.session_state["messages"])
